@@ -37,7 +37,6 @@ body {
 .menu a {
     color: #fff;
     text-decoration: none;
-    display: block;
 }
 .menu a:hover {
     text-decoration: underline;
@@ -136,29 +135,202 @@ body {
     line-height: 26px;
     padding: 0px 0px 375px 0px;
 }
-
-
-
-
-
-
-
-
-
-
+.saiba-mais-bg {
+    background: #0d2f81;
+}
+.saiba-mais {
+    margin: 0 auto;
+    max-width: 1229px;
+    display: flex;
+}
+.saiba-mais-texto {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 123px 0px 123px 110px;
+}
+.saiba-mais-texto h2 {
+    color: #ffe7aa;
+    display: flex;
+    max-width: 520px;
+    font-size: 40px;
+    line-height: 46px;
+    flex-wrap: wrap;
+}
+.botao-recursos {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: 44px;
+    max-width: 197px;
+    align-self: center;
+    margin: 0px 0px 0px 232px;
+}
+.botao-recursos a {
+    color: #000;
+    padding: 9.5px 47.5px 9.5px 47.5px;
+}
+.botao-recursos a:hover {
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+.planos-bg {
+    background: #FFFFFF;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1229px;
+    max-height: 587px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 120px 0px;
+}
+.container h1 {
+    font-size: 25px;
+    line-height: 32px;
+    color: #000;
+    margin: 126px 0px 50px 57px;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plano-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 540px;
+    margin: 0px 0px 0px 12px;
+}
+.plano-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 510px;
+}
+.planos h2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: #000;
+    margin: 0px 0px 50px 0px;
+}
+.planos a {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 9px 0px 9px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.planos a:hover {
+    background-color: #3B85FF;
+}
+.plano-1 a {
+    max-width: 228px;
+    max-height: 44px;
+}
+.plano-2 a {
+    max-width: 301px;
+    max-height: 44px;
+}
+.footer-bg {
+    background: #000000;
+}
+.footer {
+    margin: 0 auto;
+    max-width: 1229px;
+    max-height: 635px;
+    display: flex;
+    flex-direction: column;
+}
+.listas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 162px 89.5px 122px 70px;
+}
+.lista-1 {
+    margin: 0px 15px 0px 0px;
+}
+.lista-2 {
+    margin: 0px 110px 0px 0px;
+}
+.lista-3 {
+    margin: 0px 27px 0px 0px;
+}
+.lista-4 {
+    margin: 0px 19px 0px 0px;
+}
+ul {
+    list-style-type: none;
+}
+.listas h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.listas ul {
+    color: #fff;
+    max-width: 216px;
+    max-height: 202px;
+    margin: 14px 0px 0px 0px;
+}
+.listas li {
+    color: #fff;
+}
+.listas a {
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 0px 3px 0px;
+}
+.listas a:hover {
+    text-decoration: underline;
+}
+.linguagem {
+    max-width: 120px;
+    max-height: 130px;
+    margin: 0px 0px 0px 70px;
+    padding: 60px 0px 60px 0px;
+    border-top: 1px solid white;
+}
+.linguagem a {
+    font-size: 13px;
+    color: #767676;
+}
+.linguagem a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 @media (max-width: 1024px) {
-    .header { justify-content: center; flex-wrap: nowrap; padding: 0px 40px 0px 40px;}
+    .header { justify-content: center; flex-wrap: nowrap; padding: 0px 40px 0px 40px; }
     .concentre-se img { max-width: 512px; }
     .div-img { max-width: 512px; }
     .div-img img { max-width: 512px; }
+    .botao-recursos { margin: 0px 0px 0px 97px; }
+    .plano-1 { margin: 0px 0px 0px 57px; max-width: 480px; }
+    .listas { margin: 162px 0px 122px 50px; }
+    .lista-2 { margin: 0px 30px 0px 0px; }
 }
 @media (max-width: 768px) {
     .header { flex-wrap: wrap; padding: 20px 0px 0px 0px;}
     .menu { margin: 0px 0px 0px 0px; justify-content: center;}
     .macante { flex-direction: column; max-height: 1000px; }
     .div-texto { max-width: 500px; margin: 60px 0px 60px 60px; }
-    .div-texto p { padding: 0px 0px 0px 0px;}
-    .div-img img { padding: 0px 0px 0px 55px; margin: -24px 0px 0px 0px;}
+    .div-texto p { padding: 0px 0px 0px 0px; }
+    .div-img img { padding: 0px 0px 0px 55px; margin: -24px 0px 0px 0px; }
+    .botao-recursos { margin: 0px 0px 0px 40px; }
+    .saiba-mais-texto { max-width: 400px; margin: 123px 0px 123px 60px; }
+    .plano-1 { max-width: 300px; margin: 0px 45px 0px 45px; }
+    .plano-2 { max-width: 300px; margin: 0px 45px 0px 0px; }
+    .concentre-se { margin: 0px 0px 0px 60px; }
+    .macante { margin: 0px 0px 0px 60px; }
+    .listas ul { max-width: 120px; }
+    .listas { margin: 162px 0px 122px 40px; }
+    .footer { max-height: 670px; }
 }
 @media (max-width: 767px) {
     .header { flex-wrap: wrap; padding: 20px 0px 0px 0px; }
@@ -171,7 +343,23 @@ body {
     .macante { flex-direction: column; }
     .concentre-se img { max-width: 295px; }
     .div-img { max-width: 295px; }
-    .div-img img { max-width: 295px; padding: 0px 0px 0px 55px; margin: -24px 0px 0px 0px;}
+    .div-img img { max-width: 295px; padding: 0px 0px 0px 55px; margin: -24px 0px 0px 0px; }
     .div-texto { margin: 60px 60px 60px 55px; }
-    .div-texto p { padding: 0px 0px 0px 0px;}
+    .div-texto p { padding: 0px 0px 0px 0px; }
+    .saiba-mais { flex-direction: column; max-height: 450px; }
+    .saiba-mais-texto { margin: 90px 0px 70px 60px; }
+    .botao-recursos { margin: 0px 0px 60px 0px; }
+    .planos { flex-direction: column; }
+    .container { max-height: 800px; }
+    .container h1 { margin: 60px 0px 50px 50px; max-width: 300px; }
+    .plano-1 { margin: 0px 0px 60px 50px; }
+    .plano-2 { margin: 0px 0px 0px 50px; }
+    .concentre-se { margin: 0px 0px 0px 0px; }
+    .macante { margin: 0px 0px 0px 0px; }
+    .listas { flex-direction: column; margin: 162px 89.5px 122px 130px; }
+    .footer { max-height: 1650px; }
+    .lista-1 { margin: 0px 15px 70px 0px; }
+    .lista-2 { margin: 0px 110px 70px 0px; }
+    .lista-3 { margin: 0px 27px 70px 0px; }
+    .lista-4 { margin: 0px 19px 70px 0px; }
 }
